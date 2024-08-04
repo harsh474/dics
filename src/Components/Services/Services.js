@@ -26,8 +26,13 @@ const services = [
 ];
 
 const Services = () => {
-  return (
-    <div className='flex gap-2 py-[42px] bg-[#F7F6F7] justify-around px-[15px] flex-wrap'>
+  return ( 
+    <div className='py-8 bg-[#F7F6F7]'>  
+      <h1 className='font-medium  text-7xl flex justify-center'>Our Services</h1> 
+      <p className='font-medium  text-xl flex  justify-center py-4'> 
+      Creating a memorable brand experience for our clients 
+      <br></br> while enhancing the quality of life for all we serve.</p>
+       <div className='flex gap-2 py-[42px] bg-[#F7F6F7] justify-around px-[15px] flex-wrap'>
       {services.map((service, index) => (
         <div item key={index} >
           <ServiceCard
@@ -38,6 +43,8 @@ const Services = () => {
         </div>
       ))}
     </div>
+    </div>
+   
   );
 }
 
