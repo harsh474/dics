@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const ServicesDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedService, setSelectedService] = useState(null);
+ 
   const dropdownRef = useRef(null);
 
   const services = ['Web Development', 'App Development', 'SEO Optimization', 'Graphic Design'];
@@ -13,7 +13,7 @@ const ServicesDropdown = () => {
   };
 
   const handleServiceClick = (service) => {
-    setSelectedService(service);
+    // setSelectedService(service);
     setIsOpen(false);
   };
 

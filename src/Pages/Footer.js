@@ -22,10 +22,10 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-2">Quick Links</h3>
             <ul>
-              <li className="mb-2"><a href="#" className="hover:underline">Home</a></li>
-              <li className="mb-2"><a href="#" className="hover:underline">About Us</a></li>
-              <li className="mb-2"><a href="#" className="hover:underline">Services</a></li>
-              <li className="mb-2"><a href="#" className="hover:underline">Contact</a></li>
+              <li className="mb-2"><a href="/home" className="hover:underline">Home</a></li>
+              <li className="mb-2"><a href="/about" className="hover:underline">About Us</a></li>
+              <li className="mb-2"><a href="/services" className="hover:underline">Services</a></li>
+              <li className="mb-2"><a href="/contact" className="hover:underline">Contact</a></li>
             </ul>
           </div>
 
@@ -41,10 +41,10 @@ const Footer = () => {
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
             <h3 className="text-xl font-bold mb-2">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-gray-400"><FaFacebookF /></a>
-              <a href="#" className="text-white hover:text-gray-400"><FaTwitter /></a>
-              <a href="#" className="text-white hover:text-gray-400"><FaInstagram /></a>
-              <a href="#" className="text-white hover:text-gray-400"><FaLinkedinIn /></a>
+              <a href="https://www.facebook.com" className="text-white hover:text-gray-400" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+              <a href="https://www.twitter.com" className="text-white hover:text-gray-400" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+              <a href="https://www.instagram.com" className="text-white hover:text-gray-400" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+              <a href="https://www.linkedin.com" className="text-white hover:text-gray-400" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
             </div>
           </div>
         </div>
