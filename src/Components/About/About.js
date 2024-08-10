@@ -4,28 +4,28 @@ import image2 from '../images/i12.jpg';
 import { Paper, Typography } from '@mui/material';
 function About() {
   return (
-    <div className=" pb-7 container">
+    <div className=" pb-[1.3vw] container">
       <div className=" w-full ">
-        <img src={image1} alt="About Us" className="w-full h-[422px] object-cover" />
+        <img src={image1} alt="About Us" className="w-full h-[222px] object-cover" />
       </div>
-      <div className='flex justify-center mt-10 mb-4'>
-        <Typography variant="h3">About Us</Typography>
+      <div className='flex justify-center mt-[1.2vw] mb-4'>
+        <Typography variant="h4">About Us</Typography>
       </div>
-      <div className='flex '>
-        <div className=" flex w-1/2 px-18 justify-end items-end   ">
-          <img src={image2} alt="About Us" className="w-[620px] h-[722px] object-cover justify-end items-end" />
+      <div className='flex h-[462px] justify-center '>
+        <div className=" w-[36%]  flex  justify-end items-end z-4 ">
+          <img src={image2} alt="About Us" className=" h-full w-full object-cover justify-end items-end" />
         </div > 
         
-        <div className=' w-[622px] pl-3 h-[692px] px-9  mt-12 z-2 -m-9'>
-        <Paper elevation={2} sx={{paddingX:7, paddingY:4}}>
-          <Typography variant="h3" color='#AD9271' >Welcome To DICS</Typography>
+        <div className='w-[40%] h-[692px] px-9  z-2  mt-6  -ml-[6vw] '>
+        <Paper elevation={2} sx={{paddingX:7, paddingY:2}}>
+          <Typography variant="h5" color='#AD9271' >Welcome To DICS</Typography>
           <Typography
       variant="body2"
       sx={{
-        lineHeight: '2', // Adjust line height as needed
-        fontSize: '1rem', // Adjust font size as needed
-        wordSpacing: '0.2em',
-        marginTop:'3rem' // Adjust word spacing as needed
+        lineHeight: '1.8', // Adjust line height as needed
+        fontSize: '1vw', // Adjust font size as needed
+        wordSpacing: '0.13em',
+        marginTop:'2.4rem' // Adjust word spacing as needed
       }}
       className="text-gray-800" // You can add any additional Tailwind CSS classes here
     >

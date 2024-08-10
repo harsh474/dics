@@ -1,6 +1,14 @@
-
-.app{ 
+.app { 
   margin: 0; 
   padding: 0;
+}
 
+.container p { 
+  font-size: 0.9vw !important; /* Make this rule important */
+}
+.container li { 
+  font-size: 0.9vw !important; /* Make this rule important */
+}
+.container h1{ 
+  font-size: 2 vw !important; /* Make this rule important */
 }

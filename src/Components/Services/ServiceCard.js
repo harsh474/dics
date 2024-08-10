@@ -8,13 +8,14 @@ const ServiceCard = ({ image, title, description }) => {
   return (
     <Card 
       sx={{ 
-        maxWidth: 420, 
-        height: 500, 
-        paddingX: 4, 
-        paddingY: 4,
+        maxWidth: 320, 
+        maxHeight :350,
+        paddingX: 2,
+        paddingY:2, 
+       
         fontFamily: 'Poppins, sans-serif',
-        fontSize: '8px',
-        lineHeight: '20px',
+        fontSize: '1vw',
+        lineHeight: '1vw',
         transition: 'transform 0.3s, box-shadow 0.3s',
         '&:hover': {
           transform: 'translate(4px, 4px)',
@@ -24,14 +25,14 @@ const ServiceCard = ({ image, title, description }) => {
       }}
     >
       <CardMedia
-        sx={{ height: 200 }}
+        sx={{ height: 150  }}
         image={image}
         title={title}
       />
       <CardContent>
         <Typography 
           gutterBottom 
-          variant="h5" 
+          variant="h7" 
           component="div"
           sx={{ 
             fontFamily: 'Poppins, sans-serif', 
@@ -45,10 +46,10 @@ const ServiceCard = ({ image, title, description }) => {
           color="#3C4448"
           sx={{
             fontFamily: 'Poppins, sans-serif',
-            fontSize: '12px',
-            lineHeight: '26px',
+            fontSize: '1vw',
+            lineHeight: '2vw',
             fontWeight: 450,
-            marginTop: 6,
+            marginTop: 2,
           }}
         >
           {description}

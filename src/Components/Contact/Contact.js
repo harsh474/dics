@@ -17,19 +17,19 @@ function Contact() {
   };
 
   return (
-    <div className="flex bg-[#F7F6F7] container">
+    <div className="flex bg-[#F7F6F7] container h-[40vmax]">
       <img
         src={image6}
         className=" h-auto w-1/2 px-9 py-12 ml-9"
         alt="Contact Background"
       />
       <div
-        className="flex  rounded-xl w-1/2  bg-[#60415A] my-12 justify-center p-[48px] leading-[24px] z-10 gap-9 items-center"
+        className="flex  rounded-xl w-1/2  bg-[#60415A] my-[1vw] justify-center p-[1vw] leading-[24px] z-10 gap-9 items-center"
         style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)" }}
         text-white
       >
         <div>
-          <h2 className="text-[2vw] font-medium py-5 items-center justify-center flex text-white">
+          <h2 className="text-[2vw] font-medium py-[1vw] items-center justify-center flex text-white">
             Contact Us
           </h2>
           <form
@@ -39,6 +39,7 @@ function Contact() {
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
+              gap: "1vw"
             }}
           >
             <TextField
@@ -55,17 +56,17 @@ function Contact() {
                 },
                 "& .MuiOutlinedInput-root": {
                   "& fieldset": {
-                    borderColor: "#D9D6D8",
+                    borderColor: "white",
                   },
                   "&:hover fieldset": {
-                    borderColor: "#D9D6D8",
+                    borderColor: "white",
                   },
                   "&.Mui-focused fieldset": {
                     borderColor: "white",
                   },
                 },
-                width: "327px",
-                height: "59px",
+                width: "300px",
+                height: "39px",
               }}
             />
             <TextField
@@ -91,8 +92,8 @@ function Contact() {
                     borderColor: "white",
                   },
                 },
-                width: "327px",
-                height: "59px",
+                width: "300px",
+                height: "39px",
               }}
             />
             <TextField
@@ -118,8 +119,8 @@ function Contact() {
                     borderColor: "white",
                   },
                 },
-                width: "327px",
-                height: "59px",
+                width: "300px",
+                height: "39px",
               }}
             />
             <TextField
@@ -145,8 +146,8 @@ function Contact() {
                     borderColor: "white",
                   },
                 },
-                width: "327px",
-                height: "59px",
+                width: "300px",
+                height: "39px",
               }}
             />
 
@@ -168,10 +169,13 @@ function Contact() {
           </form>
         </div>
         <div className="text-white flex flex-col   gap-[1vw] ">
-          <h1 className="text-[2vw] font-medium leading-2"> OFFICE :</h1>
-          <span>
+          <h1 className="text-[1.7vw] font-medium leading-2"> OFFICE  :</h1>
+          <span > 
+            <p> 
             Devika Tower-6, Office No 1500-C, 16th Floor, Nehru Place, New Delhi
             110019, India
+            </p>
+            
           </span>
           <p>Ph : +91-11 41101656 011- 26980268</p>
           <p className="flex flex-col gap-1">

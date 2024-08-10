@@ -6,11 +6,11 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white container">
-      <div className=" mx-auto py-8 ">
+      <div className=" mx-auto py-8 px-4">
         <div className="flex flex-wrap justify-between">
           {/* Company Information */}
           <div className="md:w-1/4 mb-6 md:mb-0">
-            <h3 className="font-bold mb-2 text-8xl">DICS</h3>
+            <h1 className="font-bold mb-2 text-[2.3vw]">DICS</h1>
             <p>
               Real Estate and Interior Design Company 
               <br /> {/* Add a line break here */}
@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="w-full md:w-1/4 mb-6 md:mb-0">
+          <div className="w-full md:w-1/4 mb-2 md:mb-0">
             <h3 className="text-xl font-bold mb-2">Quick Links</h3>
             <ul>
               <li className="mb-2"><a href="/home" className="hover:underline">Home</a></li>

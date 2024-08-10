@@ -32,7 +32,7 @@ const Services = () => {
       <p className='font-medium  text-[1.2vw] flex  justify-center py-2'> 
       Creating a memorable brand experience for our clients 
       <br></br> while enhancing the quality of life for all we serve.</p>
-       <div className='flex gap-[1vmin] py-[42px] bg-[#F7F6F7] justify-around  flex-wrap'>
+       <div className='flex gap-[1vmin] py-[1vw] bg-[#F7F6F7] justify-around  flex-wrap'>
       {services.map((service, index) => (
         <div item key={index} >
           <ServiceCard

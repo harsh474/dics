@@ -9,7 +9,7 @@ const Navbar = () => {
       {/* <h3 className="font-bold mb-2 text-4xl">DICS</h3> */}
       <div className="z-100">{/* <ServicesDropdown/> */}</div>
 
-      <div className="Links flex gap-[4vw] w-[80%] z font-sans text-[1.6vw] ">
+      <div className="Links flex gap-[4vw] w-[80%] z font-sans text-[1.2vw] ">
         <Link to="/">Home</Link>
         <Link to="/about">About Us</Link>
         <Link to="/projects">Projects</Link>
