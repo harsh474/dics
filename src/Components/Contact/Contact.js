@@ -17,7 +17,7 @@ function Contact() {
   };
 
   return (
-    <div className="flex px-[120px] bg-[#F7F6F7] ">
+    <div className="flex px-[120px] bg-[#F7F6F7] container">
       <img
         src={image6}
         className=" h-auto w-1/2 px-9 py-12 ml-9"

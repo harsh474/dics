@@ -7,13 +7,13 @@ import Ourwork from "../Ourwork/Ourwork";
 
 function Home() {
   return (
-    <>
+    <div className="container">
       <HeroSection />
       <Services />
       <Ourwork />
       <About />
       <Contact />
-    </>
+    </div>
   );
 }
 

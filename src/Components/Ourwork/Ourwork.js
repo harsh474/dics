@@ -41,7 +41,7 @@ const services = [
 
 const VideoPlayer = ({ videoSrc, onClose, onPrev, onNext }) => {
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
+    <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 ">
       <div className="relative flex items-center justify-center">
         <button
           onClick={onPrev}
@@ -92,7 +92,7 @@ const Ourwork = () => {
   };
 
   return (
-    <div className="py-10  px-5">
+    <div className="py-10  px-5 container ">
       <div className="text-center mb-8">
         <h1 className="text-6xl font-bold">Our Work</h1>
         <div className="mt-2 h-1 w-20 bg-yellow-500 mx-auto"></div>

@@ -4,7 +4,7 @@ import image2 from '../images/i12.jpg';
 import { Paper, Typography } from '@mui/material';
 function About() {
   return (
-    <div className=" pb-7">
+    <div className=" pb-7 container">
       <div className=" w-full ">
         <img src={image1} alt="About Us" className="w-full h-[422px] object-cover" />
       </div>
