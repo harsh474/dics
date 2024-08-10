@@ -8,7 +8,9 @@ import Services from "./Components/Services/Services";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Services1 from "./Components/Services/Services1";
-import Projects from "./Components/Projects/Projects"
+import Projects from "./Components/Projects/Projects" 
+import './App.css';
+
 function App() {
   return (
     <Router>
