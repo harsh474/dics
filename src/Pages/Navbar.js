@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="main-container flex  py-7 items-center border-2 bg-[] container">
+    <div className="main-container flex  py-3 items-center border-2 bg-[] container">
       <h1 className="flex  w-[20%] font-bold justify-center text-4xl">DICS</h1>
       {/* <h3 className="font-bold mb-2 text-4xl">DICS</h3> */}
       <div className="z-100">{/* <ServicesDropdown/> */}</div>
