@@ -17,7 +17,7 @@ function Contact() {
   };
 
   return (
-    <div className="flex px-[120px] bg-[#F7F6F7] container">
+    <div className="flex bg-[#F7F6F7] container">
       <img
         src={image6}
         className=" h-auto w-1/2 px-9 py-12 ml-9"
@@ -29,7 +29,7 @@ function Contact() {
         text-white
       >
         <div>
-          <h2 className="text-[42px] font-medium py-5 items-center justify-center flex text-white">
+          <h2 className="text-[2vw] font-medium py-5 items-center justify-center flex text-white">
             Contact Us
           </h2>
           <form
@@ -167,8 +167,8 @@ function Contact() {
             </Button>
           </form>
         </div>
-        <div className="text-white flex flex-col  text-xl gap-9 ">
-          <h1 className="text-5xl font-medium"> CORPORATE OFFICE:</h1>
+        <div className="text-white flex flex-col   gap-[1vw] ">
+          <h1 className="text-[2vw] font-medium leading-2"> OFFICE :</h1>
           <span>
             Devika Tower-6, Office No 1500-C, 16th Floor, Nehru Place, New Delhi
             110019, India
@@ -176,7 +176,7 @@ function Contact() {
           <p>Ph : +91-11 41101656 011- 26980268</p>
           <p className="flex flex-col gap-1">
              
-              <h1 className="text-3xl font-medium"> Ashu Dau(Director)</h1>
+              <h1 className="text-[1.7vw] font-medium"> Ashu Dau(Director)</h1>
             <br></br>
             <span> Mobile: +91- 9911 9895 46 | 011-41101656 </span>
             <br></br>

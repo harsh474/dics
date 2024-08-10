@@ -1,36 +1,6 @@
-/* styles.css */
 
-/* Reset default margin and padding */
-* {
-  margin: 0;
+.app{ 
+  margin: 0; 
   padding: 0;
-  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
-}
 
-/* Set body styles */
-body {
-  font-family: 'YourFontFamily', sans-serif; /* Use your preferred font */
-  line-height: 1.5; /* Improve readability */
-  background-color: #f9f9f9; /* Optional: Set a background color */
-  color: #333; /* Optional: Set a default text color */
-}
-
-/* Optional: Set default styles for common elements */
-h1, h2, h3, h4, h5, h6 {
-  margin: 0; /* Reset margin for headings */
-}
-
-p {
-  margin: 0; /* Reset margin for paragraphs */
-}
-
-/* Set left and right margins to 0 for all elements */
-.container {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-/* Optional: Add a container class for consistent padding */
-.container {
-  padding: 0 1rem; /* Adjust this value as needed */
 }

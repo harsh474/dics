@@ -8,13 +8,13 @@ const ServiceCard = ({ image, title, description }) => {
   return (
     <Card 
       sx={{ 
-        maxWidth: 520, 
-        height: 600, 
+        maxWidth: 420, 
+        height: 500, 
         paddingX: 4, 
         paddingY: 4,
         fontFamily: 'Poppins, sans-serif',
-        fontSize: '14px',
-        lineHeight: '26px',
+        fontSize: '8px',
+        lineHeight: '20px',
         transition: 'transform 0.3s, box-shadow 0.3s',
         '&:hover': {
           transform: 'translate(4px, 4px)',
@@ -45,7 +45,7 @@ const ServiceCard = ({ image, title, description }) => {
           color="#3C4448"
           sx={{
             fontFamily: 'Poppins, sans-serif',
-            fontSize: '17px',
+            fontSize: '12px',
             lineHeight: '26px',
             fontWeight: 450,
             marginTop: 6,
